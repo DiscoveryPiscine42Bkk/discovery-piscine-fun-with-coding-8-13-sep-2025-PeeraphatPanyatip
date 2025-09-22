@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.login {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.desc {
+    color: gray;
+    margin: 5px 0 15px;
+}
+
+.socials .icon {
+    width: 24px;
+    margin: 0 5px;
+}
+
+.contact-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    background: #45a049;
+}
